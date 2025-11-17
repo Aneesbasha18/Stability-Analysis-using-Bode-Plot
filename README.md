@@ -26,7 +26,7 @@ elseif(Wpc == Wgc)
 else
     disp('unstable')
 end
-https://github.com/Aneesbasha18/Stability-Analysis-Using-Root-Locus/blob/main/README.md
+
 ## Output:
 <img width="707" height="630" alt="image" src="https://github.com/user-attachments/assets/24022199-283d-4d03-b717-c2ab7217f31b" />
 
