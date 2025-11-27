@@ -19,19 +19,19 @@ Computer with MATLAB software
 
 
 ## Program: 
-num=1
-den=[0.05 0.56 1 0]
-sys=tf(num,den)
-bode(sys)
-grid on
-[Gm Pm Wpc Wgc]=margin(sys)
-if(Wpc>Wgc)
-    disp('stable')
-elseif(Wpc == Wgc)
-    disp('marginally stable')
-else
-    disp('unstable')
-end
+num=1 <br>
+den=[0.05 0.56 1 0] <br>
+sys=tf(num,den) <br>
+bode(sys) <br>
+grid on <br>
+[Gm Pm Wpc Wgc]=margin(sys) <br>
+if(Wpc>Wgc) <br> 
+    disp('stable') <br>
+elseif(Wpc == Wgc) <br>
+    disp('marginally stable') <br>
+else <br>
+    disp('unstable') <br>
+end <br>
 
 ## Output:
 <img width="707" height="630" alt="image" src="https://github.com/user-attachments/assets/24022199-283d-4d03-b717-c2ab7217f31b" />
